@@ -1,0 +1,12 @@
+---
+ - name: Création des utilisateurs
+   hosts: all
+   become: yes
+   remote_user: root
+ 
+  
+ - name: Installation du serveur web
+   hosts: [web]
+  
+ - name: Installation de mariadb
+   hosts: [db]
