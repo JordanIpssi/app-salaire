@@ -1,5 +1,4 @@
-[web]
-app-salaire-jordan.form
-[db]
-app-salaire-jordan.form
+web:
+  hosts:
+    192.168.1.51:
 
